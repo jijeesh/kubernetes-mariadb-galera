@@ -28,7 +28,7 @@ spec:
     spec:
       containers:
       - name: galera
-        image: severalnines/mariadb:10.1
+        image: jijeesh/mariadb:10.1
         ports:
         - name: mysql
           containerPort: 3306
